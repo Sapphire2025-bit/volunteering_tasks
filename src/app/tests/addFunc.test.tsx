@@ -1,4 +1,4 @@
-const add = (a: number, b: number) => a + b;
+import { add } from "../services/addFunctionForTest";
 
 test("add function", () => {
     const a = 1;
